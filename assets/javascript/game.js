@@ -26,8 +26,9 @@ shoot1.addEventListener("click", function(){
         console.log(newValue);
     }
         
-        else if ("teamone".goal1 >9);
-            console.log ("team one wins!")
+     if(goals1.innerHTML >=10){
+        console.log ("teamone wins!")
+    }
         
         
 })
@@ -51,11 +52,12 @@ shoot2.addEventListener("click", function(){
         goals2.innerHTML=newValue;
  }
 
- else {("teamtwo".goal2 >9);
-    console.log ("teamtwo wins!")
+ if(goals2.innerHTML >=10){
+    console.log("teamtwo wins!")
+}
 
    
-}
+
 
 })
 
@@ -66,6 +68,10 @@ shoot2.addEventListener("click", function(){
 gamereset.addEventListener("click",function(){
     newValue=Number(reset.innerHTML)+1;
     reset.innerHTML=newValue;
+    newValue =0;
+        goals2.innerHTML=newValue;
+    newValue =0;
+        goals1.innerHTML=newValue;
 
 
      
