@@ -1,8 +1,5 @@
 .body{
-   
-    background-image: url("../css/style.jpeg");
-   
-    
+    background-image: url("./assets/javascript/game.js");
 }
 
 
@@ -12,13 +9,17 @@
 }
 .left {
     float: left;
+    
+    
 }
 .right {
     float: right;
 }
 .clear {
     clear: both;
+   
 }
 #reset-container, h1 {
     text-align: center;
+    
 }
