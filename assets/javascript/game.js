@@ -24,7 +24,11 @@ shoot1.addEventListener("click", function(){
          newValue= Number(goals1.innerHTML) + 1;
         goals1.innerHTML =newValue;
         console.log(newValue);
-        }
+    }
+        
+        else if ("teamone".goal1 >9);
+            console.log ("team one wins!")
+        
         
 })
 
@@ -47,6 +51,12 @@ shoot2.addEventListener("click", function(){
         goals2.innerHTML=newValue;
  }
 
+ else {("teamtwo".goal2 >9);
+    console.log ("teamtwo wins!")
+
+   
+}
+
 })
 
    let gamereset = document.querySelector("#reset-button");
@@ -56,7 +66,9 @@ shoot2.addEventListener("click", function(){
 gamereset.addEventListener("click",function(){
     newValue=Number(reset.innerHTML)+1;
     reset.innerHTML=newValue;
-   
+
+
+     
 
    
 
